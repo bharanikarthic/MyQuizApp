@@ -30,9 +30,6 @@ Input: The quiz results are displayed
 Expected output: The quiz score is shown, and the UI does not allow further interactions with the quiz.
 These are just some basic test cases to get started. You can further expand and customize the test cases based on your specific requirements.
 
-
-
-
 To test the score calculation functionality of the given code, you can write the following test cases:
 
 Test case: All answers are correct
@@ -61,12 +58,6 @@ Input: Select different options for questions and change them before submitting.
 Expected output: The quiz score should reflect the final selected options at the time of submission.
 You can create test cases based on these scenarios to validate the correctness of the score calculation in the given code.
 
-
-
-
-
-
-
 To test the score calculation functionality of the given code, you can write the following test cases:
 
 Test case: All answers are correct
@@ -94,15 +85,3 @@ Test case: Changing selected options before submitting
 Input: Select different options for questions and change them before submitting.
 Expected output: The quiz score should reflect the final selected options at the time of submission.
 You can create test cases based on these scenarios to validate the correctness of the score calculation in the given code.
-
-
-
-
-
-
-
-
-
-
-
-
