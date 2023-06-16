@@ -1,0 +1,108 @@
+
+
+Test case: Once Rendering the quiz
+
+Input: N/A
+Expected output: The quiz form is displayed the question.options with radio button
+Test case:User Select the option
+
+Input: User once clicks the answer's option
+Expected output: The user selected options stored in the userData state.
+Test case: Navigate to the next question
+
+Input: User clicks the "Next" button
+Expected output: The next question is displayed
+Test case: navigate to the Next question
+
+Input: User clicks the "Previous" button
+Expected output: The previous question is displayed .
+Test case: Navigate to the previous question
+
+Input: the User finished all the questions and clicks the "Submit" button
+Expected output: The quiz app Displayed the correct answer answer and options
+Test case: Timer expiration
+
+Input: Timer reaches 0
+Expected output: The quiz results are displayed automatically, indicating the quiz score.
+Test case: Quiz results displayed
+
+Input: The quiz results are displayed
+Expected output: The quiz score is shown, and the UI does not allow further interactions with the quiz.
+These are just some basic test cases to get started. You can further expand and customize the test cases based on your specific requirements.
+
+
+
+
+To test the score calculation functionality of the given code, you can write the following test cases:
+
+Test case: All answers are correct
+
+Input: Select the correct options for all questions and submit the quiz.
+Expected output: The quiz score should be equal to the total number of questions.
+Test case: All answers are incorrect
+
+Input: Select incorrect options for all questions and submit the quiz.
+Expected output: The quiz score should be 0.
+Test case: Some answers are correct and some are incorrect
+
+Input: Select a combination of correct and incorrect options for different questions and submit the quiz.
+Expected output: The quiz score should be equal to the number of correct answers.
+Test case: No answer is selected for any question
+
+Input: Submit the quiz without selecting any options for the questions.
+Expected output: The quiz score should be 0.
+Test case: Multiple submissions of the same quiz
+
+Input: Submit the quiz multiple times without changing the selected options.
+Expected output: The quiz score should remain the same for each submission.
+Test case: Changing selected options before submitting
+
+Input: Select different options for questions and change them before submitting.
+Expected output: The quiz score should reflect the final selected options at the time of submission.
+You can create test cases based on these scenarios to validate the correctness of the score calculation in the given code.
+
+
+
+
+
+
+
+To test the score calculation functionality of the given code, you can write the following test cases:
+
+Test case: All answers are correct
+
+Input: Select the correct options for all questions and submit the quiz.
+Expected output: The quiz score should be equal to the total number of questions.
+Test case: All answers are incorrect
+
+Input: Select incorrect options for all questions and submit the quiz.
+Expected output: The quiz score should be 0.
+Test case: Some answers are correct and some are incorrect
+
+Input: Select a combination of correct and incorrect options for different questions and submit the quiz.
+Expected output: The quiz score should be equal to the number of correct answers.
+Test case: No answer is selected for any question
+
+Input: Submit the quiz without selecting any options for the questions.
+Expected output: The quiz score should be 0.
+Test case: Multiple submissions of the same quiz
+
+Input: Submit the quiz multiple times without changing the selected options.
+Expected output: The quiz score should remain the same for each submission.
+Test case: Changing selected options before submitting
+
+Input: Select different options for questions and change them before submitting.
+Expected output: The quiz score should reflect the final selected options at the time of submission.
+You can create test cases based on these scenarios to validate the correctness of the score calculation in the given code.
+
+
+
+
+
+
+
+
+
+
+
+
